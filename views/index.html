@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+          <h1 class="text-center">URL Shortener</h1>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input id="url-field" type="text" class="form-control" placeholder="Paste a link...">
+                <span class="form-group">
+                  <button id="btn-shorten" class="btn btn-default" type="button">SHORTEN</button>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div id="link"></div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/shorten.js"></script>
+</body>
+</html>
